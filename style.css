@@ -1,0 +1,85 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+html {
+    font-size: 62.5%;
+    /* Default font size is 16px - 62.5% of 16 is 10px -
+                            1 rem(relative unit)now will be equivilant to 10px*/
+}
+
+
+header {
+    margin: 0.2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    border: 3px solid #FBF7F7;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    border-style: outset;
+}
+
+body {
+    background-color: #7B2869;
+    color: #FFBABA;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+cite {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 2rem;
+}
+
+.imageCard img {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageCard a {
+    text-decoration: none;
+    color: #C85C8E;
+}
+
+.cardText {
+    color: #FFBABA;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a[target="_blank"] {
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    header {
+        font-size: 1.6rem;
+    }
+
+
+    .holidays {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .imageCard {
+        max-width: 60%;
+    }
+}
